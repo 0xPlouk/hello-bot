@@ -7,5 +7,5 @@ bot.on('ready', function () {
 bot.login('toekn')
 
 bot.on("guildMemberAdd", member => {
-    member.guild.channels.cache.get('channelID').send(`Welcom ${member.user}`);
+    member.guild.channels.cache.get('channelID').send(`Welcome ${member.user}`);
 });
